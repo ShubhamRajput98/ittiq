@@ -51,15 +51,6 @@
 } */
 
 
-@media screen and (max-width:1399px) {
-    .owl-carousel .prev-slide {
-        left: -60px;
-    }
-
-    .owl-carousel .next-slide {
-        right: -60px;
-    }
-}
 
 
 @media screen and (max-width:1279px) {
