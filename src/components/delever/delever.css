@@ -1,0 +1,35 @@
+.custom-arrow {
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 78px !important;
+}
+
+.owl-carousel .custom-arrow.prev-arrow {
+    background: url("../../assets/leftarrow.png") no-repeat scroll 0 0;
+    left: -90px;
+}
+
+.owl-carousel .custom-arrow.next-arrow {
+    background: url("../../assets/rightarrow.png") no-repeat scroll;
+    right: -80px;
+}
+
+
+
+@media screen and (max-width:1279px) {
+    .owl-carousel .custom-arrow.prev-arrow {
+        left: 0px;
+    }
+
+    .owl-carousel .custom-arrow.next-arrow {
+        right: 0px;
+    }
+}
+
+@media screen and (max-width:639px) {
+    .owl-carousel .custom-arrow.prev-arrow {
+        left: -13px;
+    }
+}

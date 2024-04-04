@@ -1,0 +1,33 @@
+.buttonbar {
+    bottom: -37px !important;
+}
+
+
+.buttonbar li.slick-active button:before {
+    background-color: #FD4A36;
+    width: 100%;
+    border-radius: 25px;
+    transition: all 0.2s ease-in-out;
+    transform-origin: center;
+}
+
+.buttonbar li,
+.buttonbar li button {
+    height: max-content !important;
+    width: max-content !important;
+    margin: 0 5px !important;
+    padding: 0 !important;
+}
+
+.buttonbar li.slick-active button {
+    width: 16px !important;
+    margin: 0 5px !important;
+}
+
+
+.buttonbar li button:before {
+    background-color: #C2C2C2;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}

@@ -1,0 +1,101 @@
+.owl-carousel .owl-stage-outer {
+    height: 580px !important;
+}
+
+.owl-carousel .owl-stage {
+    top: 47px !important;
+    height: 100% !important;
+}
+
+.owl-carousel.owl-drag .owl-item.center {
+    transform: scale(1.1) !important;
+    transition: all 0.2s ease-in;
+}
+
+
+
+.owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+
+.owl-carousel .nav-btn {
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 225px !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+    pointer-events: none;
+    opacity: 0.2;
+}
+
+.owl-carousel .prev-slide {
+    background: url("../../assets/leftarrow.png") no-repeat scroll 0 0;
+    left: -85px;
+}
+
+.owl-carousel .next-slide {
+    background: url("../../assets/rightarrow.png") no-repeat scroll;
+    right: -75px;
+}
+
+/* .owl-carousel .prev-slide:hover {
+    background-position: 0px -53px;
+}
+
+.owl-carousel .next-slide:hover {
+    background-position: -24px -53px;
+} */
+
+
+
+
+
+@media screen and (max-width:1279px) {
+    .owl-carousel .prev-slide {
+        left: -12px;
+    }
+
+    .owl-carousel .next-slide {
+        right: 0px;
+    }
+}
+
+
+@media screen and (max-width:1023px) {
+    .card-containt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: none !important;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        height: 570px !important;
+    }
+
+
+}
+
+@media screen and (max-width:639px) {
+    .owl-carousel.owl-drag .owl-item.center {
+        transform: scale(1) !important;
+        transition: all 0.2s ease-in;
+    }
+
+    .owl-carousel .prev-slide {
+        left: -12px;
+    }
+
+    .owl-carousel .next-slide {
+        right: 0px;
+    }
+
+    .owl-nav,
+    .owl-dots {
+        display: none !important;
+    }
+}
